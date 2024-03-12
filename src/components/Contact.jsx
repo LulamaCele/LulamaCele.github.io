@@ -53,7 +53,7 @@ export const Contact = () => {
             className="bg-[#11235A] shadow-lg shadow-blue-400/20
            flex flex-col justify-center items-center my-6 rounded p-3"
           >
-            <form onSubmit={handleSubmit}>
+            <form  onSubmit={handleSubmit} name="contact" netlify>
               <input
                 type="text"
                 placeholder="Enter your name..."
